@@ -16,5 +16,12 @@ namespace CodingTest
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string text = textBox1.Text;
+
+            textBox2.Text = text;
+        }
     }
 }
